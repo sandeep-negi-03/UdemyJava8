@@ -15,6 +15,8 @@ public class TreeSetSortingDemo {
 		tSet.add(5);
 		
 		System.out.println(tSet);
+//		tSet.stream().sorted().forEach(System.out::println);
+		tSet.stream().sorted().forEach((i)->System.out.print(i + " "));
 	}
 
 }
