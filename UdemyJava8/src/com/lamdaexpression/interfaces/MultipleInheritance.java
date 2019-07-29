@@ -1,4 +1,4 @@
-package com.lamdaexpression.section5;
+package com.lamdaexpression.interfaces;
 
 interface One{
 	public default void m1() {
